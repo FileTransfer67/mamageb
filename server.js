@@ -30,48 +30,163 @@ function getCookie(cookie, key){
 }
 
 let questions =[
-    {
-        "num":"Test",
-        "text":"When was Katja born",
-        "img":"img.png",
-        "correctAnswer":0,
-        "answers":[
-            "1966",
-            "1967",
-            "1968",
-            "1969"
-        ],
-        "points":0,
-        "time":14
-    },
-    {
-        "num":1,
-        "text":"Where did Katja do this Bike tour",
-        "img":"img.png",
-        "correctAnswer":2,
-        "answers":[
-            "India",
-            "Australia",
-            "Egypt",
-            "USA"
-        ],
-        "points":100,
-        "time":14
-    },
-    {
-        "num":2,
-        "text":"Where was this picture taken?",
-        "img":"img.png",
-        "correctAnswer":3,
-        "answers":[
-            "Germany",
-            "USA",
-            "Vanuatu",
-            "Russia"
-        ],
-        "points":100,
-        "time":14
-    }
+    
+        {
+            "num":"Test",
+            "text":"When was Katja born",
+            "img":"0.jpeg",
+            "correctAnswer":0,
+            "answers":[
+                "1966",
+                "1967",
+                "1968",
+                "1969"
+            ],
+            "points":0,
+            "time":14
+        },
+        {
+            "num":"1",
+            "text":"Where did Katja do a bike tour?",
+            "img":"null",
+            "correctAnswer":2,
+            "answers":[
+                "Australia",
+                "USA",
+                "Egypt",
+                "Spain"
+            ],
+            "points":100,
+            "time":14
+        },
+        {
+            "num":"2",
+            "text":"Where was this picture taken?",
+            "img":"2.jpg",
+            "correctAnswer":3,
+            "answers":[
+                "Germany",
+                "Vanuatu",
+                "USA",
+                "Russia"
+            ],
+            "points":100,
+            "time":14
+        },
+        {
+            "num":"3",
+            "text":"When was the last time that the 1.FC Köln won the Bunderliga?",
+            "img":"3.jpg",
+            "correctAnswer":1,
+            "answers":[
+                "1963/1964",
+                "1977/1978",
+                "2012/2013",
+                "1985/1986"
+            ],
+            "points":100,
+            "time":14
+        },
+        
+        {
+            "num":"4",
+            "text":"How many academic titles does she have",
+            "img":"4.jpg",
+            "correctAnswer":3,
+            "answers":[
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "points":100,
+            "time":14
+        },
+        {
+            "num":"5",
+            "text":"Where have we never spent our summer holidays?",
+            "img":"5.JPG",
+            "correctAnswer":2,
+            "answers":[
+                "Andorra",
+                "Armenia",
+                "Litauen",
+                "Montenegro"
+            ],
+            "points":100,
+            "time":14
+        },
+        {
+            "num":"6",
+            "text":"How long has Katja been working for the EU?",
+            "img":"6.jpg",
+            "correctAnswer":1,
+            "answers":[
+                "16",
+                "22",
+                "26",
+                "20"
+            ],
+            "points":100,
+            "time":14
+        },
+        {
+            "num":"7",
+            "text":"When did Jörg and Katja get married?",
+            "img":"7.jpg",
+            "correctAnswer":0,
+            "answers":[
+                "2005",
+                "2003",
+                "2009",
+                "2002"
+            ],
+            "points":100,
+            "time":14
+        },
+        {
+            "num":"8",
+            "text":"What animals did Katja have when she was a child?",
+            "img":"null",
+            "correctAnswer":1,
+            "answers":[
+                "A Cat",
+                "A Dog",
+                "A Hamster",
+                "None"
+            ],
+            "points":100,
+            "time":14
+        },
+        {
+            "num":"9",
+            "text":"Why did Katja get curious about working in public health?",
+            "img":"9.jpg",
+            "correctAnswer":3,
+            "answers":[
+                "It was her big dream",
+                "A friend was working there",
+                "She got an invitation to work there",
+                "She read about it in a newspaper article"
+            ],
+            "points":100,
+            "time":20
+        },
+        {
+            "num":"10",
+            "text":"Which sport does Katja not watch?",
+            "img":"10.JPG",
+            "correctAnswer":3,
+            "answers":[
+                "Football",
+                "Tennis",
+                "Basketball",
+                "Ski Jumping"
+            ],
+            "points":100,
+            "time":14
+        }
+    
 ]
 let currentQuestionIndex=0;
 let timeUntilEndOfQuestion = 0;
