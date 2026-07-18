@@ -29,7 +29,7 @@ function getCookie(cookie, key){
     return null;
 }
 
-let questions =[
+let questions =>[
     
         {
             "num":"Test",
@@ -71,12 +71,12 @@ let questions =[
                 "Russia"
             ],
             "points":100,
-            "time":14
+            "time":22
         },
         {
             "num":"3",
             "text":"When was the last time that the 1.FC Köln won the Bunderliga?",
-            "img":"3.jpg",
+            "img":"3.png",
             "correctAnswer":1,
             "answers":[
                 "1963/1964",
@@ -106,7 +106,7 @@ let questions =[
             "num":"5",
             "text":"Where have we never spent our summer holidays?",
             "img":"5.JPG",
-            "correctAnswer":2,
+            "correctAnswer":1,
             "answers":[
                 "Andorra",
                 "Armenia",
@@ -176,7 +176,7 @@ let questions =[
             "num":"10",
             "text":"Which sport does Katja not watch?",
             "img":"10.JPG",
-            "correctAnswer":3,
+            "correctAnswer":2,
             "answers":[
                 "Football",
                 "Tennis",
