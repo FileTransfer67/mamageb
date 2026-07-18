@@ -1,0 +1,57 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+            "wdth" 100;
+}
+
+root{
+    --size: 50px
+}
+h1{
+    font-size:150px;
+}
+h2{
+    font-size:100px;
+}
+h3,.h3{
+    font-size:50px;
+}
+.quizbutton, .b{
+    border-radius:20px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 50px;
+    padding: 20px
+}
+.correct{
+    background-color: rgb(163, 234, 147);
+    border: 1px solid rgb(87, 248, 55) !important;
+}
+.incorrect{
+    background-color: rgb(234, 147, 147);
+    border: 1px solid rgb(248, 55, 55) !important;
+}
+.name{
+    display: grid;
+    grid-template-columns: max-content auto max-content;
+    margin-bottom: 10px;
+}
+.you{
+    background-color: rgb(202, 147, 234);
+    border: 1px solid rgb(222, 55, 248) !important;
+}
+.gold{
+    background-color: rgb(241, 224, 138);
+    border: 1px solid rgb(238, 210, 89) !important;
+}
+.silver{
+    background-color: rgb(194, 194, 194);
+    border: 1px solid rgb(150, 150, 150) !important;
+}
+.bronze{
+    background-color: rgb(250, 197, 141);
+    border: 1px solid rgb(243, 156, 80) !important;
+}

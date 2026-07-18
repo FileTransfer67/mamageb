@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Control</title>
+    <style>
+        button{
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+<script>
+  function run(r){
+      switch (r){
+          case "start":{
+              fetch('/start', {
+                  method: "POST",
+                  body:""
+              }).then((data)=>{
+                  if (data.status!=200){
+                      alert("Cannot start anymore");
+
+                  }
+                  document.getElementById("start").remove();
+              })
+              break;
+          }
+          case "leaderboard":{
+              fetch('/toLeaderboard', {
+                  method: "POST",
+                  body:""
+              }).then((data)=>{
+                  if (data.status!=200){
+                      alert("Cannot go to leaderboard");
+                  }
+              })
+              break;
+          }
+          case "next":{
+              fetch('/next', {
+                  method: "POST",
+                  body:""
+              }).then((data)=>{
+                  console.log(data.status)
+                  if (data.status==301){
+                    alert("No more questions")
+                  } else if (data.status!=200){
+                      alert("Cannot go to next question, no leaderboard");
+                  }
+              })
+              break;
+          }
+          case "podium":{
+              fetch("/topodium", {
+                  method: "POST",
+                  body:""
+              }).then((data)=>{
+                  if (data.status!=200){
+                      alert("Cannot go to podium");
+                  }
+              })
+              break;
+          }
+      }
+  }
+</script>
+  <button onclick="run('start')" id="start">Start</button><br>
+<button onclick="run('leaderboard')">To Leaderboard</button><br>
+<button onclick="run('next')">Next question</button><br>
+<button onclick="run('podium')">To podium</button><br>
+</body>
+</html>
