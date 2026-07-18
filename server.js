@@ -43,7 +43,7 @@ let questions =[
                 "1969"
             ],
             "points":0,
-            "time":14
+            "time":25
         },
         {
             "num":"1",
@@ -57,7 +57,7 @@ let questions =[
                 "Spain"
             ],
             "points":100,
-            "time":14
+            "time":25
         },
         {
             "num":"2",
@@ -71,7 +71,7 @@ let questions =[
                 "Russia"
             ],
             "points":100,
-            "time":22
+            "time":30
         },
         {
             "num":"3",
@@ -85,7 +85,7 @@ let questions =[
                 "1985/1986"
             ],
             "points":100,
-            "time":14
+            "time":28
         },
         
         {
@@ -100,7 +100,7 @@ let questions =[
                 "3"
             ],
             "points":100,
-            "time":14
+            "time":25
         },
         {
             "num":"5",
@@ -114,7 +114,7 @@ let questions =[
                 "Montenegro"
             ],
             "points":100,
-            "time":14
+            "time":28
         },
         {
             "num":"6",
@@ -128,7 +128,7 @@ let questions =[
                 "20"
             ],
             "points":100,
-            "time":14
+            "time":25
         },
         {
             "num":"7",
@@ -142,7 +142,7 @@ let questions =[
                 "2002"
             ],
             "points":100,
-            "time":14
+            "time":25
         },
         {
             "num":"8",
@@ -156,7 +156,7 @@ let questions =[
                 "None"
             ],
             "points":100,
-            "time":14
+            "time":25
         },
         {
             "num":"9",
@@ -170,7 +170,7 @@ let questions =[
                 "She read about it in a newspaper article"
             ],
             "points":100,
-            "time":20
+            "time":28
         },
         {
             "num":"10",
@@ -184,7 +184,7 @@ let questions =[
                 "Ski Jumping"
             ],
             "points":100,
-            "time":14
+            "time":25
         }
     
 ]
