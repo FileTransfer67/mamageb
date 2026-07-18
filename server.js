@@ -16,7 +16,7 @@ let guesses = {}
 
 let current_state="START";
 
-let MAX_USERS = 4;
+let MAX_USERS = 75;
 
 function getCookie(cookie, key){
     const cookies = cookie.split(";");
