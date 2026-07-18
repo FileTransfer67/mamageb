@@ -29,7 +29,7 @@ function getCookie(cookie, key){
     return null;
 }
 
-let questions =>[
+let questions =[
     
         {
             "num":"Test",
